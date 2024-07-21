@@ -1,0 +1,11 @@
+def verificar_nome_idade(nome,idade):
+    if nome == "Luise" and idade == 22:
+        return True
+    else:
+        return False
+    
+    
+nome = "Luise"
+idade = 25
+resultado = verificar_nome_idade(nome, idade)
+print(resultado)
